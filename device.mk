@@ -14,6 +14,9 @@
 # limitations under the License.
 #
 
+# ViperFX
+$(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
+
 # Vendor blobs
 $(call inherit-product, vendor/motorola/ocean/ocean-vendor.mk)
 
