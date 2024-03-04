@@ -60,6 +60,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/camera/ov12a10_ocean_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ov12a10_ocean_chromatix.xml \
     $(LOCAL_PATH)/configs/camera/s5k4h7_ocean_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k4h7_ocean_chromatix.xml \
 
+# fastbootd
+PRODUCT_PACKAGES += \
+    fastbootd
+
 # Fingerprint
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/idc/uinput-fpc.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/uinput-fpc.idc \

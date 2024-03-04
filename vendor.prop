@@ -16,6 +16,9 @@ persist.vendor.camera.expose.aux=1
 # Cutout
 ro.support_hide_display_cutout=true
 
+# fastbootd
+ro.fastbootd.available=true
+
 # Sensors
 ro.hardware.sensors=ocean
 ro.vendor.sensors.amd=false
